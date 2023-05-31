@@ -1,11 +1,7 @@
 body {
-  background-image: url("images/markus-spiske-UCbMZ0S-w28-unsplash.jpg");
+  background-image: url("../images/markus-spiske-UCbMZ0S-w28-unsplash.jpg");
   background-size: cover;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Geneva', 'Verdana', 'sans-serif';
-}
-
-a {
-  text-decoration: none;
 }
 
 #heading {
@@ -15,16 +11,11 @@ a {
   color: black;
 }
 
-#navigation_panel tr td {
-  padding: 20px;
-}
-
-#navigation_panel tr td:hover {
-  color: white;
-}
-
 #navigation_panel tr td a {
+  text-decoration: none;
+  padding: 20px;
   color: black;
+  align-content: center;
 }
 
 #navigation_panel tr td a:hover {
@@ -35,3 +26,4 @@ a {
   color: white;
   font-size: 20px;
 }
+
