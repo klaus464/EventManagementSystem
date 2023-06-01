@@ -1,0 +1,31 @@
+body {
+    background-image: url("images/markus-spiske-UCbMZ0S-w28-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Geneva', 'Verdana', 'sans-serif';
+  }
+  
+  h1 {
+    padding: 100px;
+    font-size: 50px;
+    font-weight: 150;
+    color: black;
+  }
+  
+  #navigation_panel tr td {
+    padding: 20px;
+    align-content: center;
+  }
+  
+  #navigation_panel tr td a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #navigation_panel tr td a:hover {
+    color: white;
+  }
+  
+  #intro {
+    color: white;
+    font-size: 20px;
+  }
