@@ -1,31 +1,65 @@
+* {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Geneva', 'Verdana', 'sans-serif';
+}
+
 body {
-    background-image: url("images/markus-spiske-UCbMZ0S-w28-unsplash.jpg");
-    background-size: cover;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Geneva', 'Verdana', 'sans-serif';
-  }
-  
-  h1 {
-    padding: 100px;
-    font-size: 50px;
-    font-weight: 150;
-    color: black;
-  }
-  
-  #navigation_panel tr td {
-    padding: 20px;
-    align-content: center;
-  }
-  
-  #navigation_panel tr td a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  #navigation_panel tr td a:hover {
-    color: white;
-  }
-  
-  #message {
-    color: white;
-    font-size: 20px;
-  }
+  background-image: url("images/markus-spiske-UCbMZ0S-w28-unsplash.jpg");
+  background-size: cover;
+}
+
+h1 {
+  padding: 100px;
+  font-size: 50px;
+  font-weight: 150;
+  color: black;
+}
+
+#navigation_panel tr td {
+  padding: 20px;
+  align-content: center;
+}
+
+#navigation_panel tr td a {
+  text-decoration: none;
+  color: black;
+}
+
+#navigation_panel tr td a:hover {
+  color: white;
+}
+
+#message {
+  color: white;
+  font-size: 20px;
+}
+
+input
+{
+  width: 240px;
+  height: 20px;
+  margin: 5px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+  border: none;
+  outline: none;
+}
+
+button {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(25deg, white, black);
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(25deg, white, cyan, purple);
+  border: none;
+  outline: none;
+}
