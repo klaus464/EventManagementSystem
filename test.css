@@ -58,13 +58,17 @@ header a:hover {
     /* For mobile phones: */
 
     header {
-        padding: 10px;
+        padding-top: 20px;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 20px;
     }
 
     header a {
-        padding: 10px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
 
     #login_form_container {
