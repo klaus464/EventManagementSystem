@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none; outline: none;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+header {
+    width: 100%;
+    background: black;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    background: gray;
+
+}
+
+#title_banner {
+    
+}
+
+#login_form_container {
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+    border-style: dashed;
+    border-radius: 12px;
+}
+
+#login_form {
+    border-style: ridge;
+    border-color: aliceblue;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#login_form input {
+    width: 80%;
+    border-radius: 3px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#login_form button {
+    width: 30%;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+@media screen {
+    /* For mobile phones: */
+
+    header {
+        padding: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header a {
+        padding: 10px;
+    }
+
+    #login_form_container {
+        width: 80%;
+    }
+
+    #title_banner {
+        padding: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    header {
+        padding: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header a {
+        padding: 15px;
+    }
+
+    #title_banner {
+        padding: 100px;
+    }
+
+    #login_form_container {
+        width: 30%;
+    }
+
+}
